@@ -18,6 +18,7 @@ repositories {
 val vertxVersion = "4.2.1"
 val junitJupiterVersion = "5.7.0"
 val logbackVersion = "0.1.5"
+val guiceVersion = "4.2.2"
 
 val libraries = mapOf(
   "platform" to "io.vertx:vertx-stack-depchain:$vertxVersion",
@@ -29,6 +30,7 @@ val libraries = mapOf(
   "stdlib" to "stdlib-jdk8",
   "junit5-vertx" to "io.vertx:vertx-junit5",
   "junit5" to "org.junit.jupiter:junit-jupiter-api:$junitJupiterVersion",
+  "guice" to "com.google.inject:guice:$guiceVersion",
 )
 
 val mainVerticleName = "com.ak.async.MainVerticle"

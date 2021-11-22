@@ -9,7 +9,7 @@ on:
       - master
 
 jobs:
-  ktlint:
+  build:
     runs-on: ubuntu-latest
 
     steps:
